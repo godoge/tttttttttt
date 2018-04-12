@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+
+        android:hint="开头需附上http://或https://"
+        android:inputType="textUri"
+        android:key="host_url"
+
+        android:summary="自定义HOST的获取地址"
+        android:title="设置HOST地址" />
+
+</PreferenceScreen>
